@@ -1,6 +1,6 @@
 module github.com/luxfi/pqrns
 
-go 1.26.2
+go 1.26.3
 
 require (
 	github.com/luxfi/zwing v0.5.2
