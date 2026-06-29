@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="pqrns" width="880"></p>
+
 # pqrns
 
 > **PQ-RNS**: hybrid post-quantum profile for the
