@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: linux-amd64
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
@@ -27,7 +27,7 @@ jobs:
         run: go test -count=1 -race -timeout=300s ./...
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: linux-amd64
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
